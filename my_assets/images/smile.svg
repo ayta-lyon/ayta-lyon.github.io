@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>images/smile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Site-web-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-429.000000, -3051.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Group-10" transform="translate(0.000000, 1913.000000)">
+                <g id="images/chemin" transform="translate(316.000000, 28.000000)">
+                    <g id="Group-3" transform="translate(97.000000, 1093.000000)">
+                        <path d="M35.5,17 C46.2523,17 55,25.7477 55,36.5 C55,47.2523 46.2523,56 35.5,56 C24.7477,56 16,47.2523 16,36.5 C16,25.7477 24.7477,17 35.5,17 Z M46.0550833,40 C43.1570833,42.3552599 39.9715833,43.8058635 35.5019167,43.8058635 C31.0284167,43.8058635 27.8429167,42.3552599 24.9449167,40 L24,40.9716679 C26.1600833,44.3616654 30.1333333,48 35.5019167,48 C40.8685833,48 44.8399167,44.3616654 47,40.9716679 L46.0550833,40 Z M29,29 C27.344,29 26,30.342 26,32 C26,33.658 27.344,35 29,35 C30.656,35 32,33.658 32,32 C32,30.342 30.656,29 29,29 Z M42,29 C40.344,29 39,30.342 39,32 C39,33.658 40.344,35 42,35 C43.656,35 45,33.658 45,32 C45,30.342 43.656,29 42,29 L42,29 Z" id="images/smile"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

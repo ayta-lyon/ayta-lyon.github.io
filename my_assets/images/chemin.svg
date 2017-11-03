@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="979px" height="1160px" viewBox="0 0 979 1160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>images/chemin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="13.0968948%" y1="13.4844809%" x2="69.9664117%" y2="26.7740369%" id="linearGradient-1">
+            <stop stop-color="#EEEEEE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="880" y="0" width="124" height="96"></rect>
+    </defs>
+    <g id="Site-web-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-314.000000, -1952.000000)">
+            <g id="Group-10" transform="translate(0.000000, 1913.000000)">
+                <g id="images/chemin" transform="translate(316.000000, 28.000000)">
+                    <g id="Group-3" transform="translate(97.000000, 1093.000000)">
+                        <circle id="Oval-3" fill="#58BC82" opacity="0.421252264" cx="36" cy="42" r="36"></circle>
+                        <circle id="Oval-3" fill="#58BC82" cx="36" cy="36" r="36"></circle>
+                        <path d="M35.5,17 C46.2523,17 55,25.7477 55,36.5 C55,47.2523 46.2523,56 35.5,56 C24.7477,56 16,47.2523 16,36.5 C16,25.7477 24.7477,17 35.5,17 Z M46.0550833,40 C43.1570833,42.3552599 39.9715833,43.8058635 35.5019167,43.8058635 C31.0284167,43.8058635 27.8429167,42.3552599 24.9449167,40 L24,40.9716679 C26.1600833,44.3616654 30.1333333,48 35.5019167,48 C40.8685833,48 44.8399167,44.3616654 47,40.9716679 L46.0550833,40 Z M29,29 C27.344,29 26,30.342 26,32 C26,33.658 27.344,35 29,35 C30.656,35 32,33.658 32,32 C32,30.342 30.656,29 29,29 Z M42,29 C40.344,29 39,30.342 39,32 C39,33.658 40.344,35 42,35 C43.656,35 45,33.658 45,32 C45,30.342 43.656,29 42,29 L42,29 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                    <path d="M974,225 L974,261.575844 L974,261.575844 C974,285.324088 954.748244,304.575844 931,304.575844 L57,304.575844 L57,304.575844 C25.5197693,304.575844 -1.09606437e-14,330.095613 -7.10542736e-15,361.575844 L0,371" id="Path-4" stroke="#58BC82" stroke-width="4"></path>
+                    <path d="M974,777 L974,813.575844 L974,813.575844 C974,837.324088 954.748244,856.575844 931,856.575844 L57,856.575844 L57,856.575844 C25.5197693,856.575844 -1.09606437e-14,882.095613 -7.10542736e-15,913.575844 L0,923" id="Path-4" stroke="#58BC82" stroke-width="4"></path>
+                    <path d="M975,503 L975,539.575844 L975,539.575844 C975,563.324088 955.748244,582.575844 932,582.575844 L58,582.575844 L58,582.575844 C26.5197693,582.575844 1,608.095613 1,639.575844 L1,649" id="Path-4" stroke="#58BC82" stroke-width="4" transform="translate(488.000000, 576.000000) scale(-1, 1) translate(-488.000000, -576.000000) "></path>
+                    <path d="M3,1055.67649 L3,1078.67649 L3,1078.67649 C3,1105.73844 24.9380473,1127.67649 52,1127.67649 L108.03039,1127.67649" id="Path-5" stroke="#58BC82" stroke-width="4"></path>
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <path d="M895,13 L922,13 L922,13 C951.271092,13 975,36.7289083 975,66 L975,97" id="Path-6" stroke="#58BC82" stroke-width="4" mask="url(#mask-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

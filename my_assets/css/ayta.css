@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "Rampung";
+    src: url("../fonts/Rampung.ttf") format("ttf");
+}
+
+.--ayta .titan-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ayta__logo-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 100px;
+}
+
+.ayta__logo {
+    background-image: url("../images/logo_blanc.svg");
+    width: 400px;
+    height: 253px;
+    margin-right: 100px;
+    display: block;
+}
+
+.ayta__logotype {
+    background-image: url("../images/logotype_blanc.svg");
+    width: 438px;
+    height: 213px;
+    display: block;
+}
+
+.--ayta .font-alt {
+    font-family: Rampung, Impact, sans-serif;
+}
+
+
+.ayta__tagline {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.--ayta .titan-title-size-3 {
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    color: #FFFFFF;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+.--ayta .navbar-brand {
+    padding: 0;
+}
+
+.--ayta .navbar-brand img {
+    height: 40px;
+    margin-top: 7px;
+}
+
+.--ayta #concept h2 {
+    text-align: left;
+    color: #58BC82;
+}
+
+.--ayta #concept .the-woman-top {
+    background-image: url("/my_assets/images/femme_1.svg");
+    height: 575px;
+    width: 367px;
+    background-size: contain;
+    position:relative;
+}
+
+.--ayta #concept .the-woman-bottom {
+    background-image: url("/my_assets/images/femme_2.svg");
+    width: 509px;
+    height: 342px;
+    background-size: contain;
+    position:relative;
+}
+
+.--ayta #concept .the-woman-cont {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.--ayta .features {
+    background-color: #E08DAC;
+    height: 350px;
+}
+
+.--ayta #deroulement .step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 250px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.--ayta #deroulement .step1,
+.--ayta #deroulement .step3 {
+    border-right: 4px solid #58BC82;
+}
+
+.--ayta #deroulement .step2,
+.--ayta #deroulement .step4 {
+    border-right: none;
+    position: relative;
+    border-left: 4px solid #58BC82;
+
+}
+
+.--ayta #deroulement .der__count {
+    width: 131px;
+    height: 131px;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid #58BC82;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F9FCF9;
+    font-size: 48px;
+    color: #58BC82;
+    position: relative;
+    left: 82px;
+}
+
+.--ayta #deroulement .step2 .der__count,
+.--ayta #deroulement .step4 .der__count {
+    left: -82px;
+}
+
+.--ayta #deroulement .outro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #58BC82;
+}
+
+.--ayta #deroulement .smile {
+    background-color: #58BC82;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    box-shadow: 0 6px #B9E3CB;
+    background-image: url("/my_assets/images/smile.svg");
+    background-size: 39px 39px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+.--ayta #galerie {
+    background-color: #50A9EC;
+    color: white;
+}
+
+.--ayta #galerie .pic {
+    background: #F9FCF9;
+    border-radius: 19px;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+.--ayta #galerie .pic__img {
+    width: 100%;
+    height: 200px;
+    border-radius: 19px 19px 0 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.--ayta #galerie .pic p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #47594D;
+    text-align: center;
+    margin-left: 15%;
+    width: 70%;
+}
+
+.--ayta .copyright {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.--ayta #contact {
+    background-color: #47594D;
+}
+
+.--ayta footer {
+    margin-top: 100px;
+}

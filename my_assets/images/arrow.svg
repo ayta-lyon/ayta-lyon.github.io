@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>images/arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.1%" y="-4.4%" width="112.3%" height="112.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Site-web-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="64" font-family="material" font-weight="normal">
+        <g id="Desktop" transform="translate(-136.000000, -3558.000000)" fill="#58BC82">
+            <g id="Galerie" transform="translate(-1.000000, 3265.000000)">
+                <g id="Left-arrow" filter="url(#filter-1)" transform="translate(162.000000, 316.000000) rotate(180.000000) translate(-162.000000, -316.000000) translate(105.000000, 259.000000)">
+                    <text id="images/arrow">
+                        <tspan x="25" y="79"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
