@@ -3,6 +3,10 @@
     src: url("../fonts/Rampung.ttf") format("ttf");
 }
 
+.--ayta {
+    font-family: "filson-soft",sans-serif;
+}
+
 .--ayta .titan-caption {
     display: flex;
     flex-direction: column;
