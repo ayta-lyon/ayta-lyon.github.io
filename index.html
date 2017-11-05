@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+
   <!--
   Document Title
   =============================================
@@ -64,7 +65,7 @@
       </div>
     </div>
   </nav>
-  <section class="home-section home-fade home-full-height bg-dark-30" id="home" data-background="my_assets/images/bg1.png">
+  <section class="home-section home-fade home-full-height bg-dark-30 --desktop" id="home" data-background="my_assets/images/bg1.png">
     <div class="titan-caption">
       <div class="caption-content">
         <div class="ayta__logo-container">
@@ -75,10 +76,19 @@
       <div class="ayta__tagline">
         <div class="font-alt titan-title-size-3">
           Cabinet mobile d'esthétique naturelle
-        </div><a class="section-scroll btn btn-border-w btn-round" href="#about">En savoir plus</a>
+        </div>
+        <a class="section-scroll btn btn-border-w btn-round" href="#about">En savoir plus</a>
       </div>
 
     </div>
+  </section>
+  <section class="home-section --mobile">
+    <div class="m__home__logo"></div>
+    <div class="m__home__logotype"></div>
+    <div class="m__home__motto">
+      Cabinet mobile d'esthétique naturelle
+    </div>
+    <div class="m__home__arrows"></div>
   </section>
   <div class="main">
     <section class="module" id="concept">
@@ -86,11 +96,17 @@
         <div class="row">
           <div class="col-sm-6">
             <h2 class="module-title font-alt">Le concept Ayta</h2>
-            <p>Nous sommes deux praticiennes en Médecine Traditionnelle Chinoise qui exerçons chacune en cabinet pour votre santé. Nous avons eu l’envie de faire connaître les bienfaits de l’acupuncture esthétique, une méthode naturelle qui permet de préserver votre beauté en douceur et en harmonie avec vous-même.</p>
-            <p>Pour nous, l’esthétique n’est pas qu’une série d’actes réalisés sur le corps  mais un besoin de prendre soin de soi dans son intégralité. C’est pour cette raison que nous avons eu l’idée de créer un cabinet mobile.</p>
-            <p>Avec Ayta, nous vous proposons donc de vivre un moment où vous pourrez prendre soin de vous, choyés et relaxés. Vous profiterez d’une pause zen entre amis confortablement chez vous, sans vous préoccupez de l’heure, du trajet, du parking ou de votre retour à la maison après le soin.</p>
+            <p>
+              Nous sommes deux praticiennes en Médecine Traditionnelle Chinoise qui exerçons chacune en cabinet pour votre santé. Nous avons eu l’envie de faire connaître les bienfaits de l’acupuncture esthétique, une méthode naturelle qui permet de préserver votre beauté en douceur et en harmonie avec vous-même.
+            </p>
+            <p>
+              Pour nous, l’esthétique n’est pas qu’une série d’actes réalisés sur le corps  mais un besoin de prendre soin de soi dans son intégralité. C’est pour cette raison que nous avons eu l’idée de créer un cabinet mobile.
+            </p>
+            <p>
+              Avec Ayta, nous vous proposons donc de vivre un moment où vous pourrez prendre soin de vous, choyés et relaxés. Vous profiterez d’une pause zen entre amis confortablement chez vous, sans vous préoccupez de l’heure, du trajet, du parking ou de votre retour à la maison après le soin.
+            </p>
           </div>
-          <div class="col-sm-5 the-woman-cont col-sm-offset-1">
+          <div class="col-sm-5 the-woman-cont col-sm-offset-1 --desktop">
             <div class="the-woman-top"></div>
           </div>
         </div>
@@ -101,35 +117,41 @@
             <div class="col-sm-7">
               <div class="row">
                 <div class="feature feature__naturel col-sm-4">
-                  <div class="feature__icon">
-                    <i class="icon__leaf"></i>
+                  <div class="feature__header">
+                    <div class="feature__icon">
+                      <i class="icon__leaf"></i>
+                    </div>
+                    <div class="feature__title">Naturel</div>
                   </div>
-                  <div class="feature__title">Naturel</div>
                   <p>
                     Votre beauté est sublimée et prolongée en douceur, sans chirurgie ni injection de produit.
                   </p>
                 </div>
                 <div class="feature feature__surmesure col-sm-4">
-                  <div class="feature__icon">
-                    <i class="icon__meter"></i>
+                  <div class="feature__header">
+                    <div class="feature__icon">
+                      <i class="icon__meter"></i>
+                    </div>
+                    <div class="feature__title">Sur mesure</div>
                   </div>
-                  <div class="feature__title">Sur mesure</div>
                   <p>
                     Le choix des points à stimuler est adapté en fonction de vous et de votre état énergétique au moment de la séance, pour avoir le meilleur résultat possible.
                   </p>
                 </div>
                 <div class="feature feature__quietude col-sm-4">
-                  <div class="feature__icon">
-                    <i class="icon__soins"></i>
+                  <div class="feature__header">
+                    <div class="feature__icon">
+                      <i class="icon__soins"></i>
+                    </div>
+                    <div class="feature__title">Un instant de quiétude</div>
                   </div>
-                  <div class="feature__title">Un instant de quiétude</div>
                   <p>
                     Séance exclusivement à domicile pour des petits groupes d’amis qui veulent prendre le temps de passer un moment de détente ensemble, au calme, loin des cabinets trop impersonnels.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-sm-5 the-woman-cont">
+            <div class="col-sm-5 the-woman-cont --desktop">
               <div class="the-woman-bottom"></div>
             </div>
           </div>
@@ -139,7 +161,10 @@
     <section class="module" id="deroulement">
       <div class="container">
         <div class="row">
-          <h2 class="module-title font-alt col-sm-4">Le déroulement</h2>
+          <div class="col-sm-4 col-xs-12">
+            <h2 class="module-title font-alt">Le déroulement</h2>
+          </div>
+
           <p class="der__intro col-sm-5 col-sm-offset-1">
             Vous êtes quelques ami(e)s qui voulez prendre soin de vous naturellement et vous avez décidé de vous regrouper pour profiter de cet instant apaisant, dans le confort de votre domicile ? Voici comment se déroulera la séance AYTA.
           </p>
@@ -346,5 +371,6 @@ JavaScripts
 <script src="assets/lib/smoothscroll.js"></script>
 <script src="assets/js/plugins.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="my_assets/js/main.js"></script>
 </body>
 </html>

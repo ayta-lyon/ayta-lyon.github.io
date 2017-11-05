@@ -176,10 +176,11 @@
 .--ayta #deroulement h2 {
     background-color: #58BC82;
     color: white;
-    margin-left: -30px;
-    height: 70px;
-    line-height: 70px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 .--ayta #deroulement .der__intro {
@@ -306,9 +307,12 @@
 .--ayta #faq h2 {
     background-color: #50A9EC;
     color: white;
-    height: 60px;
+    min-height: 60px;
     line-height: 60px;
     margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .--ayta #faq .faq__question {
@@ -384,4 +388,127 @@
 
 .--ayta .navbar-transparent .navbar-right {
     background: rgba(71, 89, 77, 0.9);
+}
+
+.--ayta .--mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+    .--ayta .--desktop {
+        display: none !important;
+    }
+
+    .--ayta .--mobile {
+        display: inherit;
+    }
+
+    .--ayta .navbar-custom .icon-bar {
+        background: #58BC82;
+    }
+
+    .--ayta .m__home__logo {
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        height: 50vh;
+        background-image: url("/my_assets/images/logo_couleur.svg");
+    }
+
+    .--ayta .m__home__logotype {
+        width: 70%;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        height: 15vh;
+        background-image: url("/my_assets/images/logotype.svg");
+    }
+
+    .--ayta .m__home__motto {
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        width: 80%;
+        margin: auto;
+    }
+
+    .--ayta .m__home__arrows {
+        width: 100px;
+        margin: auto;
+        height: 100px;
+        background-image: url("/my_assets/images/arrows.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: fixed;
+        bottom: 40px;
+        left: calc(50% - 50px);
+        z-index: 10000;
+    }
+
+    .--ayta .feature__header {
+        display: flex;
+        align-items: center;
+    }
+
+    .--ayta .feature__title {
+        margin-top: 0 !important;
+        margin-left: 10px;
+    }
+
+    .--ayta .feature p {
+        margin-left: 35px;
+    }
+
+    .--ayta #deroulement {
+        background: none;
+    }
+
+    .--ayta #deroulement .step,
+    .--ayta #deroulement .outro {
+        border: none;
+        align-items: flex-start;
+    }
+
+    .--ayta #deroulement .der__count,
+    .--ayta #deroulement .smile {
+        left: 0 !important;
+        margin-right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .--ayta #deroulement .step2,
+    .--ayta #deroulement .step4 {
+        flex-direction: row-reverse;
+    }
+
+    .--ayta #contact .contact__person {
+
+        text-align: center;
+    }
+
+    .--ayta #contact .contact__person:first-child {
+        margin-top: 30px;
+    }
+
+    .--ayta #contact .contact__fb {
+        text-align: center;
+    }
+
+    .--ayta .navbar-brand {
+        margin-left: 20px;
+    }
+
+    .--ayta .navbar-custom.navbar-transparent {
+        background-color: transparent;
+    }
+
+    .--ayta .navbar-custom {
+        background: rgba(71, 89, 77, 1);
+    }
 }
