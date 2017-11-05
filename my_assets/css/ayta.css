@@ -243,15 +243,15 @@
 .--ayta #deroulement .smile {
     background-color: #58BC82;
     border-radius: 50%;
-    width: 72px;
-    height: 72px;
-    box-shadow: 0 6px #B9E3CB;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 3px #B9E3CB;
     background-image: url("/my_assets/images/smile.svg");
-    background-size: 39px 39px;
+    background-size: 30px 30px;
     background-position: center center;
     background-repeat: no-repeat;
     margin-right: 20px;
-    margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 
 .--ayta #galerie {
@@ -300,13 +300,14 @@
 /** FAQ **/
 
 .--ayta #faq {
+    padding: 40px 0 60px 0;
 }
 
 .--ayta #faq h2 {
     background-color: #50A9EC;
     color: white;
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
     margin-bottom: 100px;
 }
 
@@ -356,11 +357,11 @@
 }
 
 .--ayta .navbar-custom {
-    background: #47594D;
+    background: rgba(71, 89, 77, 0.9);
 }
 
 .--ayta .navbar-transparent {
-    background-color: transparent;
+    background: rgba(71, 89, 77, 0);
 }
 
 .--ayta .navbar-transparent .navbar-brand {
@@ -379,4 +380,8 @@
 .--ayta .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.--ayta .navbar-transparent .navbar-right {
+    background: rgba(71, 89, 77, 0.9);
 }
