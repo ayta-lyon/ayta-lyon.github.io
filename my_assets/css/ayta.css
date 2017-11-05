@@ -297,9 +297,17 @@
     margin-top: 100px;
 }
 
+/** FAQ **/
+
+.--ayta #faq {
+}
 
 .--ayta #faq h2 {
-    color: #E08DAC;
+    background-color: #50A9EC;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 100px;
 }
 
 .--ayta #faq .faq__question {
@@ -345,4 +353,30 @@
 
 .--ayta .module {
     padding: 70px 0;
+}
+
+.--ayta .navbar-custom {
+    background: #47594D;
+}
+
+.--ayta .navbar-transparent {
+    background-color: transparent;
+}
+
+.--ayta .navbar-transparent .navbar-brand {
+    opacity: 0;
+}
+
+.--ayta .navbar-brand {
+    transition: opacity 500ms ease-in;
+}
+
+.--ayta .navbar.navbar-transparent {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.--ayta .navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
