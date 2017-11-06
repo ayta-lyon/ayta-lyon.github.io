@@ -8,6 +8,9 @@
     font-size: 13px;
 }
 
+.--ayta .page-loader {
+    background-color: #47594D;
+}
 .--ayta .titan-caption {
     display: flex;
     flex-direction: column;
