@@ -5,57 +5,37 @@
 
 .--ayta {
     font-family: "filson-soft",sans-serif;
+    font-size: 13px;
 }
 
 .--ayta .titan-caption {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-
-.ayta__logo-container {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: baseline;
-    margin-bottom: 100px;
-}
-
-.ayta__logo {
-    background-image: url("../images/logo_blanc.svg");
-    width: 400px;
-    height: 253px;
-    margin-right: 100px;
-    display: block;
+    padding: 30vh 0 10vh 0;
 }
 
 .ayta__logotype {
     background-image: url("../images/logotype_blanc.svg");
+    background-size: contain;
     width: 438px;
-    height: 213px;
+    min-height: 213px;
+    max-height: 213px;
+    background-repeat: no-repeat;
+    background-position: center center;
     display: block;
+    opacity: 0.8;
 }
 
 .--ayta .font-alt {
     font-family: Rampung, Impact, sans-serif;
 }
 
-
-.ayta__tagline {
-    position: absolute;
-    bottom: 100px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .--ayta .titan-title-size-3 {
     width: 100%;
     text-align: center;
-    font-size: 42px;
+    font-size: 3vw;
     color: #FFFFFF;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
     margin-bottom: 20px;
@@ -78,10 +58,14 @@
 
 /** CONCEPT **/
 
+.--ayta #concept .module-title {
+    margin-bottom: 30px;
+}
+
 .--ayta #concept .the-woman-top {
     background-image: url("/my_assets/images/femme_1.svg");
     width: 100%;
-    height: 450px;
+    height: 400px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -91,7 +75,7 @@
 .--ayta #concept .the-woman-bottom {
     background-image: url("/my_assets/images/femme_2.svg");
     width: 100%;
-    height: 270px;
+    height: 240px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right top;
@@ -149,6 +133,9 @@
     color: white;
     text-align: center;
     margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Rampung", Impact, sans-serif;
 }
 
 .--ayta .feature__icon {
@@ -180,7 +167,8 @@
 .--ayta #deroulement h2 {
     background-color: #58BC82;
     color: white;
-    min-height: 70px;
+    height: 70px;
+    margin-bottom: 60px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -189,9 +177,8 @@
 
 .--ayta #deroulement .der__intro {
     color: #58BC82;
-    height: 70px;
-    display: flex;
-    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .--ayta #deroulement .step {
@@ -335,9 +322,12 @@
 }
 
 .--ayta #contact .module-subtitle {
+    font-family: "filson-soft",sans-serif;
     text-align: left;
     color: white;
     font-style: normal;
+    font-size: 13px;
+    margin-bottom: 30px;
 }
 
 .--ayta .contact__person {
@@ -346,7 +336,7 @@
 }
 
 .--ayta .contact__fb {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .--ayta .contact__fb img {
@@ -361,11 +351,13 @@
 }
 
 .--ayta .module {
-    padding: 70px 0;
+    padding: 30px 0;
 }
 
 .--ayta .navbar-custom {
     background: rgba(71, 89, 77, 0.9);
+    font-family: Rampung, Impact, sans-serif;
+    font-size: 13px;
 }
 
 .--ayta .navbar-transparent {
@@ -394,17 +386,31 @@
     background: rgba(71, 89, 77, 0.9);
 }
 
-.--ayta .--mobile {
+.--ayta .--mobile, .--ayta .--mobile-only, .--ayta .--tablet {
     display: none;
 }
 
-@media screen and (max-width: 1024px){
+.--ayta .btn{
+    font-family: Rampung, Impact, sans-serif;
+}
+
+.--ayta .form-control {
+    font-family: "filson-soft", serif;
+    text-transform: none;
+}
+
+.--ayta .--desktop {
+    display: inherit;
+}
+
+
+@media screen and (max-width: 992px){
     .--ayta .--desktop {
         display: none !important;
     }
 
-    .--ayta .--mobile {
-        display: inherit;
+    .--ayta .--mobile, .--ayta .--tablet {
+        display: inherit !important;
     }
 
     .--ayta .navbar-custom .icon-bar {
@@ -514,5 +520,25 @@
 
     .--ayta .navbar-custom {
         background: rgba(71, 89, 77, 1);
+
+    }
+
+    .--ayta #deroulement .step {
+        min-height: inherit;
+    }
+
+    .--ayta #deroulement .outro {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .--ayta .--mobile-only {
+        display: inherit !important;
+    }
+
+    .--ayta .--tablet {
+        display: none !important;
     }
 }

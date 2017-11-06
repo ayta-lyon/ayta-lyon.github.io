@@ -2,9 +2,9 @@ $(function() {
     function arrowsAnimation(arrows) {
         var topScroll = $(window).scrollTop();
         if(topScroll >= 5) {
-            arrows.fadeOut();
+            arrows.fadeOut(100);
         } else {
-            arrows.fadeIn();
+            arrows.fadeIn(100);
         }
     }
 
