@@ -8,6 +8,13 @@
     font-size: 13px;
 }
 
+.--ayta .link-anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
 .--ayta .page-loader {
     background-color: #47594D;
 }
