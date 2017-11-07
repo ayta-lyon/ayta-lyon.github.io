@@ -402,7 +402,7 @@
     background: rgba(71, 89, 77, 0.9);
 }
 
-.ayta .--mobile, .ayta .--mobile-only, .ayta .--tablet {
+.ayta .a--mobile, .ayta .a--mobile-only, .ayta .a--tablet {
     display: none;
 }
 
@@ -415,17 +415,17 @@
     text-transform: none;
 }
 
-.ayta .--desktop {
+.ayta .a--desktop {
     display: inherit;
 }
 
 
 @media screen and (max-width: 992px){
-    .ayta .--desktop {
+    .ayta .a--desktop {
         display: none !important;
     }
 
-    .ayta .--mobile, .ayta .--tablet {
+    .ayta .a--mobile, .ayta .a--tablet {
         display: inherit !important;
     }
 
@@ -550,11 +550,11 @@
 
 
 @media screen and (max-width: 767px) {
-    .ayta .--mobile-only {
+    .ayta .a--mobile-only {
         display: inherit !important;
     }
 
-    .ayta .--tablet {
+    .ayta .a--tablet {
         display: none !important;
     }
 }
