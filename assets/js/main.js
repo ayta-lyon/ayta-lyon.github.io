@@ -142,11 +142,11 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          * Rotate
          /* ---------------------------------------------- */
 
-        $(".rotate").textrotator({
+        /*$(".rotate").textrotator({
             animation: "dissolve",
             separator: "|",
             speed: 3000
-        });
+        });*/
 
 
         /* ---------------------------------------------- /*
@@ -349,7 +349,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          * Youtube video background
          /* ---------------------------------------------- */
 
-        $(function(){
+        /*$(function(){
             $(".video-player").mb_YTPlayer();
         });
 
@@ -373,7 +373,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             }
             $(this).toggleClass('fa-volume-off fa-volume-up');
             return false;
-        });
+        });*/
 
 
         /* ---------------------------------------------- /*
