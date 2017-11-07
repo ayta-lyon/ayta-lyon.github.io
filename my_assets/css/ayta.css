@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Rampung";
     src: url("../fonts/Rampung.ttf") format("ttf");
+    src: url("../fonts/Rampung.woff") format("woff");
 }
 
 .--ayta {
