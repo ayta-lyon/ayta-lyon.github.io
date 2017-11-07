@@ -4,22 +4,22 @@
     src: url("../fonts/Rampung.woff") format("woff");
 }
 
-.--ayta {
+.ayta {
     font-family: "filson-soft",sans-serif;
     font-size: 13px;
 }
 
-.--ayta .link-anchor {
+.ayta .link-anchor {
     display: block;
     position: relative;
     top: -80px;
     visibility: hidden;
 }
 
-.--ayta .page-loader {
+.ayta .page-loader {
     background-color: #47594D;
 }
-.--ayta .titan-caption {
+.ayta .titan-caption {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -39,11 +39,11 @@
     opacity: 0.8;
 }
 
-.--ayta .font-alt {
+.ayta .font-alt {
     font-family: Rampung, Impact, sans-serif;
 }
 
-.--ayta .titan-title-size-3 {
+.ayta .titan-title-size-3 {
     width: 100%;
     text-align: center;
     font-size: 3vw;
@@ -53,27 +53,27 @@
     letter-spacing: 10px;
 }
 
-.--ayta .navbar-brand {
+.ayta .navbar-brand {
     padding: 0;
 }
 
-.--ayta .navbar-brand img {
+.ayta .navbar-brand img {
     height: 40px;
     margin-top: 7px;
 }
 
-.--ayta #concept h2 {
+.ayta #concept h2 {
     text-align: left;
     color: #58BC82;
 }
 
 /** CONCEPT **/
 
-.--ayta #concept .module-title {
+.ayta #concept .module-title {
     margin-bottom: 30px;
 }
 
-.--ayta #concept .the-woman-top {
+.ayta #concept .the-woman-top {
     background-image: url("/my_assets/images/femme_1.svg");
     width: 100%;
     height: 400px;
@@ -83,7 +83,7 @@
     position:relative;
 }
 
-.--ayta #concept .the-woman-bottom {
+.ayta #concept .the-woman-bottom {
     background-image: url("/my_assets/images/femme_2.svg");
     width: 100%;
     height: 240px;
@@ -93,26 +93,26 @@
     position:relative;
 }
 
-.--ayta #concept .the-woman-cont {
+.ayta #concept .the-woman-cont {
     display: flex;
     justify-content: flex-end;
 }
 
-.--ayta .features {
+.ayta .features {
     background-color: #E08DAC;
 }
 
-.--ayta .feature {
+.ayta .feature {
     padding-top: 30px;
 }
 
-.--ayta .feature p {
+.ayta .feature p {
     margin-top: 20px;
     text-align: justify;
     color: white;
 }
 
-.--ayta .icon__leaf {
+.ayta .icon__leaf {
     background-image: url("/my_assets/images/feuille.svg");
     width: 70px;
     height: 70px;
@@ -125,7 +125,7 @@
     display: block;
 }
 
-.--ayta .icon__meter {
+.ayta .icon__meter {
     background-image: url("/my_assets/images/metre.svg");
     width: 70px;
     height: 70px;
@@ -139,7 +139,7 @@
 
 }
 
-.--ayta .feature__title {
+.ayta .feature__title {
     text-transform: uppercase;
     color: white;
     text-align: center;
@@ -149,13 +149,13 @@
     font-family: "Rampung", Impact, sans-serif;
 }
 
-.--ayta .feature__icon {
+.ayta .feature__icon {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.--ayta .icon__soins {
+.ayta .icon__soins {
     background-image: url("/my_assets/images/soins.svg");
     width: 70px;
     height: 70px;
@@ -170,13 +170,13 @@
 
 /** DEROULEMENT **/
 
-.--ayta #deroulement {
+.ayta #deroulement {
     background-image: url("/my_assets/images/bg2.png");
     background-position: left bottom;
     font-size: 12px;
 }
 
-.--ayta #deroulement h2 {
+.ayta #deroulement h2 {
     background-color: #58BC82;
     color: white;
     height: 70px;
@@ -187,13 +187,13 @@
     justify-content: center;
 }
 
-.--ayta #deroulement .der__intro {
+.ayta #deroulement .der__intro {
     color: #58BC82;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.--ayta #deroulement .step {
+.ayta #deroulement .step {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -202,20 +202,20 @@
     margin-top: 10px;
 }
 
-.--ayta #deroulement .step2,
-.--ayta #deroulement .step4 {
+.ayta #deroulement .step2,
+.ayta #deroulement .step4 {
     border-right: 4px solid #58BC82;
 }
 
-.--ayta #deroulement .step1,
-.--ayta #deroulement .step3 {
+.ayta #deroulement .step1,
+.ayta #deroulement .step3 {
     border-right: none;
     position: relative;
     border-left: 4px solid #58BC82;
 
 }
 
-.--ayta #deroulement .der__count {
+.ayta #deroulement .der__count {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -231,12 +231,12 @@
     left: 57px;
 }
 
-.--ayta #deroulement .step1 .der__count,
-.--ayta #deroulement .step3 .der__count {
+.ayta #deroulement .step1 .der__count,
+.ayta #deroulement .step3 .der__count {
     left: -57px;
 }
 
-.--ayta #deroulement .outro {
+.ayta #deroulement .outro {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -244,7 +244,7 @@
     color: #58BC82;
 }
 
-.--ayta #deroulement .smile {
+.ayta #deroulement .smile {
     background-color: #58BC82;
     border-radius: 50%;
     width: 50px;
@@ -258,19 +258,19 @@
     margin-bottom: 20px;
 }
 
-.--ayta #galerie {
+.ayta #galerie {
     background-color: #50A9EC;
     color: white;
 }
 
-.--ayta #galerie .pic {
+.ayta #galerie .pic {
     background: #F9FCF9;
     border-radius: 19px;
     width: 100%;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 }
 
-.--ayta #galerie .pic__img {
+.ayta #galerie .pic__img {
     width: 100%;
     height: 200px;
     border-radius: 19px 19px 0 0;
@@ -279,7 +279,7 @@
     background-repeat: no-repeat;
 }
 
-.--ayta #galerie .pic p {
+.ayta #galerie .pic p {
     padding-top: 20px;
     padding-bottom: 30px;
     color: #47594D;
@@ -288,26 +288,26 @@
     width: 70%;
 }
 
-.--ayta .copyright {
+.ayta .copyright {
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.--ayta #contact {
+.ayta #contact {
     background-color: #47594D;
 }
 
-.--ayta footer {
+.ayta footer {
     margin-top: 100px;
 }
 
 /** FAQ **/
 
-.--ayta #faq {
+.ayta #faq {
     padding: 40px 0 60px 0;
 }
 
-.--ayta #faq h2 {
+.ayta #faq h2 {
     background-color: #50A9EC;
     color: white;
     min-height: 60px;
@@ -318,22 +318,22 @@
     justify-content: center;
 }
 
-.--ayta #faq .faq__question {
+.ayta #faq .faq__question {
     color: #50A9EC;
     text-align: center;
 }
 
-.--ayta #faq p {
+.ayta #faq p {
     color: #47594D;
     text-align: center;
 }
 
-.--ayta #contact h2 {
+.ayta #contact h2 {
     color: white;
     text-align: left;
 }
 
-.--ayta #contact .module-subtitle {
+.ayta #contact .module-subtitle {
     font-family: "filson-soft",sans-serif;
     text-align: left;
     color: white;
@@ -342,94 +342,94 @@
     margin-bottom: 30px;
 }
 
-.--ayta .contact__person {
+.ayta .contact__person {
     color: white;
     margin-bottom: 20px;
 }
 
-.--ayta .contact__fb {
+.ayta .contact__fb {
     margin-top: 20px;
 }
 
-.--ayta .contact__fb img {
+.ayta .contact__fb img {
     width: 40px;
     height: 30px;
     padding-right: 10px;
 }
 
-.--ayta .contact__fb a {
+.ayta .contact__fb a {
     color: white;
 
 }
 
-.--ayta .module {
+.ayta .module {
     padding: 30px 0;
 }
 
-.--ayta .navbar-custom {
+.ayta .navbar-custom {
     background: rgba(71, 89, 77, 0.9);
     font-family: Rampung, Impact, sans-serif;
     font-size: 13px;
 }
 
-.--ayta .navbar-transparent {
+.ayta .navbar-transparent {
     background: rgba(71, 89, 77, 0);
 }
 
-.--ayta .navbar-transparent .navbar-brand {
+.ayta .navbar-transparent .navbar-brand {
     opacity: 0;
 }
 
-.--ayta .navbar-brand {
+.ayta .navbar-brand {
     transition: opacity 500ms ease-in;
 }
 
-.--ayta .navbar.navbar-transparent {
+.ayta .navbar.navbar-transparent {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.--ayta .navbar {
+.ayta .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.--ayta .navbar-transparent .navbar-right {
+.ayta .navbar-transparent .navbar-right {
     background: rgba(71, 89, 77, 0.9);
 }
 
-.--ayta .--mobile, .--ayta .--mobile-only, .--ayta .--tablet {
+.ayta .--mobile, .ayta .--mobile-only, .ayta .--tablet {
     display: none;
 }
 
-.--ayta .btn{
+.ayta .btn{
     font-family: Rampung, Impact, sans-serif;
 }
 
-.--ayta .form-control {
+.ayta .form-control {
     font-family: "filson-soft", serif;
     text-transform: none;
 }
 
-.--ayta .--desktop {
+.ayta .--desktop {
     display: inherit;
 }
 
 
 @media screen and (max-width: 992px){
-    .--ayta .--desktop {
+    .ayta .--desktop {
         display: none !important;
     }
 
-    .--ayta .--mobile, .--ayta .--tablet {
+    .ayta .--mobile, .ayta .--tablet {
         display: inherit !important;
     }
 
-    .--ayta .navbar-custom .icon-bar {
+    .ayta .navbar-custom .icon-bar {
         background: #58BC82;
     }
 
-    .--ayta .m__home__logo {
+    .ayta .m__home__logo {
         width: 90%;
         margin: auto;
         margin-top: 30px;
@@ -440,7 +440,7 @@
         background-image: url("/my_assets/images/logo_couleur.svg");
     }
 
-    .--ayta .m__home__logotype {
+    .ayta .m__home__logotype {
         width: 70%;
         margin: auto;
         background-repeat: no-repeat;
@@ -450,7 +450,7 @@
         background-image: url("/my_assets/images/logotype.svg");
     }
 
-    .--ayta .m__home__motto {
+    .ayta .m__home__motto {
         text-align: center;
         font-size: 14px;
         text-transform: uppercase;
@@ -458,7 +458,7 @@
         margin: auto;
     }
 
-    .--ayta .m__home__arrows {
+    .ayta .m__home__arrows {
         width: 100px;
         margin: auto;
         height: 100px;
@@ -471,32 +471,32 @@
         z-index: 10000;
     }
 
-    .--ayta .feature__header {
+    .ayta .feature__header {
         display: flex;
         align-items: center;
     }
 
-    .--ayta .feature__title {
+    .ayta .feature__title {
         margin-top: 0 !important;
         margin-left: 10px;
     }
 
-    .--ayta .feature p {
+    .ayta .feature p {
         margin-left: 35px;
     }
 
-    .--ayta #deroulement {
+    .ayta #deroulement {
         background: none;
     }
 
-    .--ayta #deroulement .step,
-    .--ayta #deroulement .outro {
+    .ayta #deroulement .step,
+    .ayta #deroulement .outro {
         border: none;
         align-items: flex-start;
     }
 
-    .--ayta #deroulement .der__count,
-    .--ayta #deroulement .smile {
+    .ayta #deroulement .der__count,
+    .ayta #deroulement .smile {
         left: 0 !important;
         margin-right: 20px;
         width: 40px;
@@ -504,53 +504,53 @@
         font-size: 18px;
     }
 
-    .--ayta #deroulement .step2,
-    .--ayta #deroulement .step4 {
+    .ayta #deroulement .step2,
+    .ayta #deroulement .step4 {
         flex-direction: row-reverse;
     }
 
-    .--ayta #contact .contact__person {
+    .ayta #contact .contact__person {
 
         text-align: center;
     }
 
-    .--ayta #contact .contact__person:first-child {
+    .ayta #contact .contact__person:first-child {
         margin-top: 30px;
     }
 
-    .--ayta #contact .contact__fb {
+    .ayta #contact .contact__fb {
         text-align: center;
     }
 
-    .--ayta .navbar-brand {
+    .ayta .navbar-brand {
         margin-left: 20px;
     }
 
-    .--ayta .navbar-custom.navbar-transparent {
+    .ayta .navbar-custom.navbar-transparent {
         background-color: transparent;
     }
 
-    .--ayta .navbar-custom {
+    .ayta .navbar-custom {
         background: rgba(71, 89, 77, 1);
 
     }
 
-    .--ayta #deroulement .step {
+    .ayta #deroulement .step {
         min-height: inherit;
     }
 
-    .--ayta #deroulement .outro {
+    .ayta #deroulement .outro {
         margin-top: 20px;
     }
 }
 
 
 @media screen and (max-width: 767px) {
-    .--ayta .--mobile-only {
+    .ayta .--mobile-only {
         display: inherit !important;
     }
 
-    .--ayta .--tablet {
+    .ayta .--tablet {
         display: none !important;
     }
 }
