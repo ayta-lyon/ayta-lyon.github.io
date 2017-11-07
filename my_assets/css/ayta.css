@@ -197,9 +197,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 200px;
     border-radius: 30px;
     margin-top: 10px;
+    min-height: 100px;
+}
+
+.ayta #deroulement .step .der__desc {
+    margin: 30px 0;
 }
 
 .ayta #deroulement .step2,
