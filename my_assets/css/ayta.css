@@ -173,6 +173,7 @@
 .--ayta #deroulement {
     background-image: url("/my_assets/images/bg2.png");
     background-position: left bottom;
+    font-size: 12px;
 }
 
 .--ayta #deroulement h2 {
