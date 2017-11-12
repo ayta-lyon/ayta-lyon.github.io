@@ -499,13 +499,23 @@
         align-items: flex-start;
     }
 
-    .ayta #deroulement .der__count,
+    .ayta #deroulement .der__count {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        left: calc(50% - 20px) !important;
+    }
+
     .ayta #deroulement .smile {
         left: 0 !important;
         margin-right: 20px;
         width: 40px;
         height: 40px;
         font-size: 18px;
+    }
+
+    .ayta #deroulement .step .der__count_cont {
+        width: 100%;
     }
 
     .ayta #deroulement .step2,
@@ -541,6 +551,12 @@
 
     .ayta #deroulement .step {
         min-height: inherit;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ayta #deroulement .step2, .ayta #deroulement .step4 {
+        flex-direction: column-reverse;
     }
 
     .ayta #deroulement .outro {
