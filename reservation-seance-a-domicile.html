@@ -104,7 +104,7 @@
           </p>
         </div>
         <div class="row">
-          <form class="form-horizontal" method="post" name="reservation" netlify action="/reservation-seance-a-domicile?success">
+          <form class="form-horizontal" method="post" name="reservation" netlify id="reservation">
 
             <input type="hidden" name="_subject" value="Ayta // Réservation" />
             <input type="hidden" name="_language" value="fr" />
@@ -200,7 +200,10 @@
             <div class="form-group">
               <div class="col-sm-8 text-right">* Champs obligatoires</div>
               <div class="col-sm-4 text-right">
-                <button type="submit" class="btn btn-block btn-round btn-d">Envoyer la réservation</button>
+                <button type="submit" class="btn btn-block btn-round btn-d" id="submitBtn">Envoyer la réservation</button>
+              </div>
+              <div class="col-sm-4 text-right" id="confirmationMsg">
+                Merci de votre réservation ! Nous vous recontacterons sous peu.
               </div>
             </div>
           </form>
@@ -208,6 +211,20 @@
       </div>
     </section>
 
+    <script>
+        $("#reservation").submit(function(e) {
+            e.preventDefault();
+
+            var $form = $(this);
+            $("#confirmationMsg").hide();
+
+            $.post($form.attr("action"), $form.serialize()).then(function() {
+                $("#submitBtn").hide();
+                $("#confirmationMsg").show();
+                $form[0].reset();
+            });
+        });
+    </script>
     <div class="container">
       <div class="row">
         <div class="promo col-sm-8 col-sm-offset-4">
