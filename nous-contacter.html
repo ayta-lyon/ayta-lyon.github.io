@@ -107,7 +107,7 @@
               <input type="hidden" name="_language" value="fr" />
 
               <div class="form-group">
-                <label class="sr-only" for="email">Votre adresse mail</label>
+                <label class="sr-only" for="email">Votre adresse mail *</label>
                 <input class="form-control" type="email" id="email" name="_replyto" placeholder="Votre adresse mail *" required="required" data-validation-required-message="Merci de saisir votre adresse mail"/>
                 <p class="help-block text-danger"></p>
               </div>
@@ -115,9 +115,20 @@
                 <textarea class="form-control" rows="7" id="message" name="message" placeholder="Votre message *" required="required" data-validation-required-message="Merci de saisir votre message"></textarea>
                 <p class="help-block text-danger"></p>
               </div>
-              <div class="text-center">
-                <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Envoyer</button>
+
+              <div class="form-group">
+                <div class="col-sm-8 text-right">* Champs obligatoires</div>
+                <div class="col-sm-4 text-right" id="submitBtn">
+                  <button type="submit" class="btn btn-block btn-round btn-d">Envoyer le message</button>
+                </div>
+                <div class="col-sm-4 text-right" id="loadingBtn">
+                  <button type="submit" class="btn btn-block btn-round btn-d" disabled>Veuillez patienter ...</button>
+                </div>
+                <div class="col-sm-4 text-right" id="confirmationMsg">
+                  <div class="confirmation">Merci pour votre message ! Nous vous recontacterons sous peu.</div>
+                </div>
               </div>
+              
             </form>
             <div class="ajax-response font-alt" id="contactFormResponse"></div>
           </div>
