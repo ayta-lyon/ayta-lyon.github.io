@@ -367,3 +367,11 @@
         margin-bottom: 20px;
     }
 }
+
+.confirmation {
+    background: #50A9EC;
+    color:white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
