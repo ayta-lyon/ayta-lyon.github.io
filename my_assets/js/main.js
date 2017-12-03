@@ -20,7 +20,7 @@ $(function() {
         var $form = $(this);
         $("#confirmationMsg").hide();
 
-        $.post($form.attr("action"), $form.serialize()).then(function() {
+        $.post("/", $form.serialize()).then(function() {
             $("#submitBtn").hide();
             $("#confirmationMsg").show();
             $form[0].reset();
