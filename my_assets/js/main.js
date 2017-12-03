@@ -14,14 +14,17 @@ $(function() {
 
     $.support.transition = false;
 
-    $("#form-reservation").submit(function(e) {
+    $("#confirmationMsg").hide();
+    $("#loadingBtn").hide();
+
+    $("#form-reservation, #form-contact").submit(function(e) {
         e.preventDefault();
 
         var $form = $(this);
-        $("#confirmationMsg").hide();
-
+        $("#submitBtn").hide();
+        $("#loadingBtn").show();
         $.post("/", $form.serialize()).then(function() {
-            $("#submitBtn").hide();
+            $("#loadingBtn").hide();
             $("#confirmationMsg").show();
             $form.trigger("reset");
         });
