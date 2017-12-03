@@ -23,7 +23,7 @@ $(function() {
         $.post("/", $form.serialize()).then(function() {
             $("#submitBtn").hide();
             $("#confirmationMsg").show();
-            $form[0].reset();
+            $form.trigger("reset");
         });
     });
 });
