@@ -14,9 +14,6 @@ $(function() {
 
     $.support.transition = false;
 
-    $("#confirmationMsg").toggleClass("hidden");
-    $("#loadingBtn").toggleClass("hidden");
-
     $("#form-reservation, #form-contact").submit(function(e) {
         e.preventDefault();
 
