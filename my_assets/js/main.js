@@ -14,7 +14,7 @@ $(function() {
 
     $.support.transition = false;
 
-    $("#reservation").submit(function(e) {
+    $("#form-reservation").submit(function(e) {
         e.preventDefault();
 
         var $form = $(this);
