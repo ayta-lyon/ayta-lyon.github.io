@@ -1,0 +1,151 @@
+
+.ayta .concept-text {
+    background-image: url("/my_assets/images/logo_couleur.svg");
+    background-size: 350px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding-right: 400px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+@media screen and (max-width: 1010px){
+    .ayta .concept-text {
+        padding-right: 50px;
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .ayta .concept-text {
+        padding-right: 0;
+    }
+}
+
+
+.ayta .module-title {
+    margin-bottom: 30px;
+}
+
+.ayta .about-text {
+    margin-top: 30px;
+    background-image: url("/my_assets/images/woman.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position:relative;
+    padding-left: 300px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+
+
+@media screen and (max-width: 1010px){
+    .ayta .about-text {
+        padding-left: 15px;
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .ayta .about-text {
+        padding-right: 0;
+    }
+}
+
+
+.ayta .features {
+    background-color: #E08DAC;
+}
+
+.ayta .feature {
+    padding-top: 20px;
+}
+
+.ayta .feature p {
+    margin-top: 20px;
+    text-align: justify;
+    color: white;
+}
+
+@media screen and (max-width: 750px) {
+    .ayta .feature p {
+        padding-right: 40px;
+    }
+}
+
+.ayta .icon__leaf {
+    background-image: url("/my_assets/images/feuille.svg");
+    width: 70px;
+    height: 70px;
+    background-size: 40px 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 50%;
+    display: block;
+}
+
+.ayta .icon__meter {
+    background-image: url("/my_assets/images/metre.svg");
+    width: 70px;
+    height: 70px;
+    background-size: 40px 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 50%;
+    display: block;
+
+}
+
+.ayta .feature__title {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Rampung", Impact, sans-serif;
+}
+
+.ayta .feature__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ayta .icon__soins {
+    background-image: url("/my_assets/images/soins.svg");
+    width: 70px;
+    height: 70px;
+    background-size: 45px 45px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 50%;
+    display: block;
+}
+
+
+.ayta .feature__title {
+    margin-top: 0 !important;
+    margin-left: 10px;
+}
+
+.ayta .feature__header {
+    display: flex;
+    align-items: center;
+}
+
+
+/*
+.ayta .universe .row > div {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+*/

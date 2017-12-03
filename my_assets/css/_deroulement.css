@@ -1,0 +1,101 @@
+.ayta #deroulement {
+    background-image: url("/my_assets/images/bg2.png");
+    background-position: left bottom;
+    font-size: 13px;
+}
+
+.ayta #deroulement > .container {
+    margin-left: 60px;
+}
+
+
+.ayta #deroulement .der__intro {
+    color: #58BC82;
+    margin-bottom: 40px;
+}
+
+.ayta #deroulement .step {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 30px;
+    min-height: 100px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .ayta #deroulement .der__intro {
+        margin-bottom: 10px;
+    }
+
+    .ayta #deroulement .step {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
+.ayta #deroulement .step .der__desc {
+}
+
+
+.ayta #deroulement .der__count {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid #58BC82;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F9FCF9;
+    font-size: 30px;
+    color: #58BC82;
+    position: relative;
+    left: -57px;
+}
+
+@media screen and (max-width: 750px) {
+    .ayta #deroulement .der__count {
+        width: 40px;
+        height: 40px;
+        left: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
+.ayta #deroulement .outro {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #58BC82;
+    font-weight: bold;
+}
+
+.ayta #deroulement .smile {
+    position: relative;
+    background-color: #58BC82;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 3px #B9E3CB;
+    background-image: url("/my_assets/images/smile.svg");
+    background-size: 30px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .ayta #deroulement .smile {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+#deroulement ul, #deroulement ol {
+    padding-left: 25px;
+}

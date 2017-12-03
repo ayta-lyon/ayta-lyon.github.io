@@ -15,10 +15,10 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          * WOW Animation When You Scroll
          /* ---------------------------------------------- */
 
-        wow = new WOW({
+        /*wow = new WOW({
             mobile: false
         });
-        wow.init();
+        wow.init();*/
 
 
         /* ---------------------------------------------- /*
@@ -87,11 +87,11 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 
         function buildHomeSection(homeSection) {
             if (homeSection.length > 0) {
-                if (homeSection.hasClass('home-full-height')) {
+                /*if (homeSection.hasClass('home-full-height')) {
                     homeSection.height($(window).height());
                 } else {
                     homeSection.height($(window).height() * 0.85);
-                }
+                }*/
             }
         }
 
@@ -155,13 +155,13 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 
         function navbarAnimation(navbar, homeSection, navHeight) {
             var topScroll = $(window).scrollTop();
-            if (navbar.length > 0 && homeSection.length > 0) {
+            /*if (navbar.length > 0 && homeSection.length > 0) {
                 if(topScroll >= navHeight) {
                     navbar.removeClass('navbar-transparent');
                 } else {
                     navbar.addClass('navbar-transparent');
                 }
-            }
+            }*/
         }
 
         /* ---------------------------------------------- /*
@@ -238,7 +238,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          * Video popup, Gallery
          /* ---------------------------------------------- */
 
-        $('.video-pop-up').magnificPopup({
+        /*$('.video-pop-up').magnificPopup({
             type: 'iframe'
         });
 
@@ -254,7 +254,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 titleSrc: 'title',
                 tError: 'The image could not be loaded.'
             }
-        });
+        });*/
 
 
         /* ---------------------------------------------- /*
@@ -270,12 +270,12 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             worksgrid_mode = 'fitRows';
         }
 
-        worksgrid.imagesLoaded(function() {
+        /*worksgrid.imagesLoaded(function() {
             worksgrid.isotope({
                 layoutMode: worksgrid_mode,
                 itemSelector: '.work-item'
             });
-        });
+        });*/
 
         $('#filters a').click(function() {
             $('#filters .current').removeClass('current');
@@ -422,9 +422,9 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
          * Blog masonry
          /* ---------------------------------------------- */
 
-        $('.post-masonry').imagesLoaded(function() {
+        /*$('.post-masonry').imagesLoaded(function() {
             $('.post-masonry').masonry();
-        });
+        });*/
 
 
         /* ---------------------------------------------- /*

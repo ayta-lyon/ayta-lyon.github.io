@@ -4,9 +4,62 @@
     src: url("../fonts/Rampung.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf") format("ttf");
+    src: url("../fonts/Raleway-Regular.woff") format("woff");
+}
+
 .ayta {
-    font-family: "filson-soft",sans-serif;
+    font-family: "Raleway",sans-serif;
     font-size: 13px;
+}
+
+.ayta .navbar-header {
+    float: none;
+}
+
+.ayta .navbar-right {
+    background: rgba(71, 89, 77, 0.8);
+    position: absolute;
+    float: none;
+    top: 20px;
+    right: 40px;
+}
+
+.ayta .collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+@media screen and (max-width: 980px) {
+    .ayta .navbar-custom {
+        height: 150px !important;
+    }
+    .ayta .navbar-right {
+        position: static;
+        float: left !important;
+        margin-top: 30px;
+        margin-left: -30px;
+        background-color: #50A9EC;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ayta .navbar-custom {
+        height: 80px !important;
+        padding-left: 10px;
+    }
+
+    .container{
+        margin-left: 0px !important;
+    }
+
+    .ayta .collapse.in .navbar-right,
+    .ayta .collapsing .navbar-right{
+        position: absolute;
+    }
 }
 
 .ayta .link-anchor {
@@ -46,11 +99,17 @@
 .ayta .titan-title-size-3 {
     width: 100%;
     text-align: center;
-    font-size: 3vw;
+    font-size: 12px;
     color: #FFFFFF;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50);
-    margin-bottom: 20px;
-    letter-spacing: 10px;
+    letter-spacing: 4px;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 449px) {
+    .ayta .titan-title-size-3 {
+        display: none;
+    }
 }
 
 .ayta .navbar-brand {
@@ -62,308 +121,20 @@
     margin-top: 7px;
 }
 
-.ayta #concept h2 {
-    text-align: left;
-    color: #58BC82;
-}
-
-/** CONCEPT **/
-
-.ayta #concept .module-title {
-    margin-bottom: 30px;
-}
-
-.ayta #concept .the-woman-top {
-    background-image: url("/my_assets/images/femme_1.svg");
-    width: 100%;
-    height: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    position:relative;
-}
-
-.ayta #concept .the-woman-bottom {
-    background-image: url("/my_assets/images/femme_2.svg");
-    width: 100%;
-    height: 240px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right top;
-    position:relative;
-}
-
-.ayta #concept .the-woman-cont {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.ayta .features {
-    background-color: #E08DAC;
-}
-
-.ayta .feature {
-    padding-top: 30px;
-}
-
-.ayta .feature p {
-    margin-top: 20px;
-    text-align: justify;
-    color: white;
-}
-
-.ayta .icon__leaf {
-    background-image: url("/my_assets/images/feuille.svg");
-    width: 70px;
-    height: 70px;
-    background-size: 40px 40px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    border: 2px solid white;
-    padding: 2px;
-    border-radius: 50%;
-    display: block;
-}
-
-.ayta .icon__meter {
-    background-image: url("/my_assets/images/metre.svg");
-    width: 70px;
-    height: 70px;
-    background-size: 40px 40px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    border: 2px solid white;
-    padding: 2px;
-    border-radius: 50%;
-    display: block;
-
-}
-
-.ayta .feature__title {
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: "Rampung", Impact, sans-serif;
-}
-
-.ayta .feature__icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ayta .icon__soins {
-    background-image: url("/my_assets/images/soins.svg");
-    width: 70px;
-    height: 70px;
-    background-size: 45px 45px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    border: 2px solid white;
-    padding: 2px;
-    border-radius: 50%;
-    display: block;
-}
 
 /** DEROULEMENT **/
 
-.ayta #deroulement {
-    background-image: url("/my_assets/images/bg2.png");
-    background-position: left bottom;
-    font-size: 12px;
-}
-
-.ayta #deroulement h2 {
-    background-color: #58BC82;
-    color: white;
-    height: 70px;
-    margin-bottom: 60px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.ayta #deroulement .der__intro {
-    color: #58BC82;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.ayta #deroulement .step {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 30px;
-    margin-top: 10px;
-    min-height: 100px;
-}
-
-.ayta #deroulement .step .der__desc {
-    margin: 30px 0;
-}
-
-.ayta #deroulement .step2,
-.ayta #deroulement .step4 {
-    border-right: 4px solid #58BC82;
-}
-
-.ayta #deroulement .step1,
-.ayta #deroulement .step3 {
-    border-right: none;
-    position: relative;
-    border-left: 4px solid #58BC82;
-
-}
-
-.ayta #deroulement .der__count {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    text-align: center;
-    border: 3px solid #58BC82;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #F9FCF9;
-    font-size: 48px;
-    color: #58BC82;
-    position: relative;
-    left: 57px;
-}
-
-.ayta #deroulement .step1 .der__count,
-.ayta #deroulement .step3 .der__count {
-    left: -57px;
-}
-
-.ayta #deroulement .outro {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #58BC82;
-}
-
-.ayta #deroulement .smile {
-    background-color: #58BC82;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    box-shadow: 0 3px #B9E3CB;
-    background-image: url("/my_assets/images/smile.svg");
-    background-size: 30px 30px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.ayta #galerie {
-    background-color: #50A9EC;
-    color: white;
-}
-
-.ayta #galerie .pic {
-    background: #F9FCF9;
-    border-radius: 19px;
-    width: 100%;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
-}
-
-.ayta #galerie .pic__img {
-    width: 100%;
-    height: 200px;
-    border-radius: 19px 19px 0 0;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.ayta #galerie .pic p {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    color: #47594D;
-    text-align: center;
-    margin-left: 15%;
-    width: 70%;
-}
 
 .ayta .copyright {
     margin-top: 10px;
-    margin-bottom: 40px;
-}
-
-.ayta #contact {
-    background-color: #47594D;
 }
 
 .ayta footer {
-    margin-top: 100px;
-}
-
-/** FAQ **/
-
-.ayta #faq {
-    padding: 40px 0 60px 0;
-}
-
-.ayta #faq h2 {
-    background-color: #50A9EC;
-    color: white;
-    min-height: 60px;
-    line-height: 60px;
-    margin-bottom: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ayta #faq .faq__question {
-    color: #50A9EC;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
     text-align: center;
-}
-
-.ayta #faq p {
-    color: #47594D;
-    text-align: center;
-}
-
-.ayta #contact h2 {
-    color: white;
-    text-align: left;
-}
-
-.ayta #contact .module-subtitle {
-    font-family: "filson-soft",sans-serif;
-    text-align: left;
-    color: white;
-    font-style: normal;
-    font-size: 13px;
-    margin-bottom: 30px;
-}
-
-.ayta .contact__person {
-    color: white;
-    margin-bottom: 20px;
-}
-
-.ayta .contact__fb {
-    margin-top: 20px;
-}
-
-.ayta .contact__fb img {
-    width: 40px;
-    height: 30px;
-    padding-right: 10px;
-}
-
-.ayta .contact__fb a {
-    color: white;
-
 }
 
 .ayta .module {
@@ -371,13 +142,16 @@
 }
 
 .ayta .navbar-custom {
-    background: rgba(71, 89, 77, 0.9);
+    padding-top: 10px !important;
+    background: url("/my_assets/images/bg1.png");
     font-family: Rampung, Impact, sans-serif;
     font-size: 13px;
+    height: 90px;
+    letter-spacing: 1px;
 }
 
-.ayta .navbar-transparent {
-    background: rgba(71, 89, 77, 0);
+.ayta .navbar-custom > .navbar-right {
+    margin-right: 20px;
 }
 
 .ayta .navbar-transparent .navbar-brand {
@@ -398,10 +172,6 @@
     padding-bottom: 5px;
 }
 
-.ayta .navbar-transparent .navbar-right {
-    background: rgba(71, 89, 77, 0.9);
-}
-
 .ayta .a--mobile, .ayta .a--mobile-only, .ayta .a--tablet {
     display: none;
 }
@@ -411,7 +181,7 @@
 }
 
 .ayta .form-control {
-    font-family: "filson-soft", serif;
+    font-family: "Raleway", serif;
     text-transform: none;
 }
 
@@ -420,157 +190,180 @@
 }
 
 
-@media screen and (max-width: 992px){
-    .ayta .a--desktop {
-        display: none !important;
-    }
 
-    .ayta .a--mobile, .ayta .a--tablet {
-        display: inherit !important;
-    }
+.ayta .home-section {
+    height: 160px;
+}
 
-    .ayta .navbar-custom .icon-bar {
-        background: #58BC82;
-    }
+.nav li.active {
+    font-weight: bolder;
+    font-size: 11pt;
+}
 
-    .ayta .m__home__logo {
-        width: 90%;
-        margin: auto;
-        margin-top: 30px;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: contain;
-        height: 50vh;
-        background-image: url("/my_assets/images/logo_couleur.svg");
-    }
+.ayta .universe {
+    margin-top: 50px;
+    background: url("/my_assets/images/bg1.png");
+    background-position: center bottom;
+    font-family: Rampung, Impact, sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    position: relative;
+}
 
-    .ayta .m__home__logotype {
-        width: 70%;
-        margin: auto;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: contain;
-        height: 15vh;
-        background-image: url("/my_assets/images/logotype.svg");
-    }
+.ayta .universe:before {
+    position: absolute;
+    content:" ";
+    z-index: 0;
+    top:0;
+    left:0;
+    bottom: 2px;
+    right: 0;
+    background: rgba(71, 89, 77, 0.6);
+    pointer-events: none;
+}
 
-    .ayta .m__home__motto {
-        text-align: center;
-        font-size: 14px;
-        text-transform: uppercase;
-        width: 80%;
-        margin: auto;
-    }
+.ayta .universe p {
+    height: 50px;
+}
 
-    .ayta .m__home__arrows {
-        width: 100px;
-        margin: auto;
-        height: 80px;
-        background-image: url("/my_assets/images/arrows.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: fixed;
-        bottom: 20px;
-        left: calc(50% - 50px);
-        z-index: 10000;
-    }
-
-    .ayta .feature__header {
-        display: flex;
-        align-items: center;
-    }
-
-    .ayta .feature__title {
-        margin-top: 0 !important;
-        margin-left: 10px;
-    }
-
-    .ayta .feature p {
-        margin-left: 35px;
-    }
-
-    .ayta #deroulement {
-        background: none;
-    }
-
-    .ayta #deroulement .step,
-    .ayta #deroulement .outro {
-        border: none;
-        align-items: flex-start;
-    }
-
-    .ayta #deroulement .der__count {
-        width: 40px;
-        height: 40px;
-        font-size: 18px;
-        left: calc(50% - 20px) !important;
-    }
-
-    .ayta #deroulement .smile {
-        left: 0 !important;
-        margin-right: 20px;
-        width: 40px;
-        height: 40px;
-        font-size: 18px;
-    }
-
-    .ayta #deroulement .step .der__count_cont {
-        width: 100%;
-    }
-
-    .ayta #deroulement .step2,
-    .ayta #deroulement .step4 {
-        flex-direction: row-reverse;
-    }
-
-    .ayta #contact .contact__person {
-
-        text-align: center;
-    }
-
-    .ayta #contact .contact__person:first-child {
-        margin-top: 30px;
-    }
-
-    .ayta #contact .contact__fb {
-        text-align: center;
-    }
-
-    .ayta .navbar-brand {
-        margin-left: 20px;
-    }
-
-    .ayta .navbar-custom.navbar-transparent {
-        background-color: transparent;
-    }
-
-    .ayta .navbar-custom {
-        background: rgba(71, 89, 77, 1);
-
-    }
-
-    .ayta #deroulement .step {
-        min-height: inherit;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .ayta #deroulement .step2, .ayta #deroulement .step4 {
-        flex-direction: column-reverse;
-    }
-
-    .ayta #deroulement .outro {
-        margin-top: 20px;
-    }
+.ayta .universe h3 {
+    font-size: 17px;
+    font-weight: bold;
 }
 
 
-@media screen and (max-width: 767px) {
-    .ayta .a--mobile-only {
-        display: inherit !important;
+@media screen and (max-width: 750px) {
+    .ayta .universe {
+        text-align: left;
+    }
+    .ayta .universe p {
+        padding-right: 20px;
+    }
+}
+
+.ayta .universe a {
+    display: block;
+}
+
+.ayta h2 {
+    text-align: left;
+    color: #58BC82;
+    margin-bottom: 20px;
+}
+
+.ayta .main {
+    min-height: calc(100vh - 120px);
+    padding-bottom: 60px;
+}
+
+.navbar .container, .universe .container {
+    margin-left: 70px;
+}
+
+
+.promo {
+    background: #A23D3D;
+    background-image: url("/my_assets/images/snow.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 20px -20px;
+    color: white;
+    padding: 20px;
+    padding-left: 250px;
+    margin-top: 10px;
+}
+
+.promo__conditions {
+    line-height: 1;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.promo__title {
+    font-family: "Rampung", serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: 1.1;
+}
+
+.promo__subtitle {
+    margin-top: 0;
+    line-height: 1;
+}
+
+.--divide-lr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.promo__offers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo__offer {
+    flex: 0 0 30%;
+    border: 1px solid #CCA440;
+    height: 100px;
+    background: white;
+    color: #CCA440;
+    text-align: center;
+}
+
+.promo__offer__percent {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.promo__offer__sub {
+    line-height: 1;
+}
+
+.promo__offer__desc {
+    margin-top: 10px;
+    line-height: 1;
+    color: #6B6B6B;
+}
+
+@media screen and (max-width: 991px) {
+    .promo {
+        background-size: 80px;
+        padding-left: 10px;
+        padding-top: 20px;
+
     }
 
-    .ayta .a--tablet {
-        display: none !important;
+    .--divide-lr {
+        padding-left: 100px;
+    }
+
+    .promo__offers {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .--divide-lr {
+        flex-direction: column;
+        align-items: flex-end;
+
+        text-align: right;
+    }
+
+    .promo__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .promo__offers {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .promo__offer {
+        margin-bottom: 20px;
     }
 }

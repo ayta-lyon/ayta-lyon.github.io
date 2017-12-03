@@ -1,0 +1,26 @@
+
+.day,.prestation {
+    margin-right: 15px;
+}
+
+.day input,.prestation input {
+    margin-right: 5px;
+}
+
+
+.days, .prestations {
+    padding-top: 7px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+    .ayta form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.intro {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,39 @@
+.ayta #contact h2 {
+    color: #47594D;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.ayta #contact .module-subtitle {
+    font-family: "Raleway",sans-serif;
+    text-align: left;
+    color: #47594D;
+    font-style: normal;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.ayta .contact__person {
+    color: #47594D;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.ayta .contact__fb {
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.ayta .contact__fb a {
+
+}
+
+@media screen and (max-width:  749px) {
+    .ayta .contact__person, .ayta .contact__fb {
+        text-align: center;
+    }
+}
+
+#contact > .container {
+    margin-left: 60px;
+}

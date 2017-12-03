@@ -1,0 +1,71 @@
+.ayta #tarifs > .container {
+    margin-left: 60px;
+}
+
+.offres {
+}
+
+.offre {
+    margin-top: 20px;
+    color: white;
+}
+
+.offre__titre {
+    font-family: "Rampung", serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+.offre__desc {
+    padding: 5px;
+    text-align: center;
+}
+
+.offre__desc a {
+    color: white;
+    text-decoration: underline;
+}
+
+.offre--aculifting {
+    background-color: #E08DAC;
+}
+
+.offre--lipolyse {
+    background-color: #50A9EC;
+}
+
+.offre__tarifs--lyon {
+    border-top: 20px solid white;
+}
+
+.offre__tarifs--periph {
+    border-top: 10px solid white;
+}
+
+.offre__tarifs--lyon, .offre__tarifs--periph {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.offre__prix {
+    font-weight: bold;
+    font-size: 19px;
+    min-width: 40px;
+    max-width: 40px;
+    margin-right: 20px;
+}
+
+.conditions {
+    margin-top: 20px;
+}
+
+.condition__bold {
+    font-weight: bold;
+}
+
+.promo--tarifs {
+    margin-top: 50px;
+}

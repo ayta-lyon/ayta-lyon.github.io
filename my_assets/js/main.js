@@ -11,4 +11,7 @@ $(function() {
     $(window).scroll(function() {
         arrowsAnimation($(".m__home__arrows"));
     });
+
+    $.support.transition = false;
 });
+
