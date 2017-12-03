@@ -21,11 +21,11 @@ $(function() {
         e.preventDefault();
 
         var $form = $(this);
-        $("#submitBtn").hide();
-        $("#loadingBtn").show();
+        $("#submitBtn").toggleClass("hidden");
+        $("#loadingBtn").toggleClass("hidden");
         $.post("/", $form.serialize()).then(function() {
-            $("#loadingBtn").hide();
-            $("#confirmationMsg").show();
+            $("#loadingBtn").toggleClass("hidden");
+            $("#confirmationMsg").toggleClass("hidden");
             $form.trigger("reset");
         });
     });
