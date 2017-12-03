@@ -13,5 +13,18 @@ $(function() {
     });
 
     $.support.transition = false;
+
+    $("#reservation").submit(function(e) {
+        e.preventDefault();
+
+        var $form = $(this);
+        $("#confirmationMsg").hide();
+
+        $.post($form.attr("action"), $form.serialize()).then(function() {
+            $("#submitBtn").hide();
+            $("#confirmationMsg").show();
+            $form[0].reset();
+        });
+    });
 });
 
