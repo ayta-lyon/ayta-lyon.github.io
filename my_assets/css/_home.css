@@ -14,12 +14,15 @@
     .ayta .concept-text {
         padding-right: 50px;
         background-image: none;
+        margin-left: 0;
     }
 }
 
 @media screen and (max-width: 750px){
     .ayta .concept-text {
         padding-right: 0;
+        margin-right: 10px;
+        margin-bottom: 20px;
     }
 }
 
@@ -45,6 +48,8 @@
     .ayta .about-text {
         padding-left: 15px;
         background-image: none;
+        margin-right: 10px;
+        margin-left: 0;
     }
 }
 
@@ -71,7 +76,7 @@
 
 @media screen and (max-width: 750px) {
     .ayta .feature p {
-        padding-right: 40px;
+        padding-right: 10px;
     }
 }
 

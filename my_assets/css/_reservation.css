@@ -7,6 +7,12 @@
     margin-right: 5px;
 }
 
+.phone-call {
+    font-weight: bold;
+}
+
+.phone-call a {
+}
 
 .days, .prestations {
     padding-top: 7px;

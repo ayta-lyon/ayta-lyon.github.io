@@ -53,7 +53,7 @@
 <main>
 
   <nav class="navbar navbar-custom">
-    <div class="container">
+    <div class="container-fluid">
       <div class="navbar-header">
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">
         <div>
@@ -97,11 +97,16 @@
             <h2 class="module-title font-alt">Réservation</h2>
           </div>
         </div>
-        <div class="row">
-          <p class="intro col-sm-6">
-            Ce formulaire vous permet de réserver une ou plusieurs séances. Une fois rempli nous vous recontacterons
-            rapidement afin de fixer le jour, l'heure et les modalités d'organisation.
-          </p>
+        <div class="row intro">
+            <div class="col-md-6">
+                <p>
+                    Ce formulaire vous permet de réserver une ou plusieurs séances. Une fois rempli nous vous recontacterons
+                    rapidement afin de fixer le jour, l'heure et les modalités d'organisation.
+                </p>
+                <p class="phone-call">
+                    Vous pouvez aussi réserver directement par téléphone au <a href="tel:+33602112655">06 02 11 26 55</a>
+                </p>
+            </div>
         </div>
         <div class="row">
           <form class="form-horizontal" name="reservation" netlify id="form-reservation">
@@ -261,39 +266,46 @@
     </div>
 
     <div class="universe">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-10 col-md-offset-1">
             <div class="row">
-              <div class="col-sm-4 ">
-                <h3>Le concept</h3>
+                <a href="/">
+                    <div class="col-sm-4 u-link">
+                        <h3>Le concept</h3>
 
-                <p>Pour savoir ce qu'est Ayta et ce que nous proposons, c'est par ici !</p>
+                        <p>Pour savoir ce qu'est Ayta et ce que nous proposons, c'est par ici !</p>
 
-                <a href="/" class="btn btn-default">
-                    En savoir plus
+                        <div  class="btn btn-default">
+                            En savoir plus
+                        </div>
+                    </div>
                 </a>
-              </div>
-              <div class="col-sm-4 ">
-                <h3>Le déroulement</h3>
+                <a href="/deroulement-des-seances">
+                    <div class="col-sm-4 u-link">
+                        <h3>Le déroulement</h3>
 
-                <p>Pour en savoir plus sur le déroulement et l'organisation des séances</p>
+                        <p>Pour en savoir plus sur le déroulement et l'organisation des séances</p>
 
-                <a href="/deroulement-des-seances" class="btn btn-default">
-                    En savoir plus
+                        <div class="btn btn-default">
+                            En savoir plus
+                        </div>
+                    </div>
                 </a>
-              </div>
-              <div class="col-sm-4">
-                <h3>Tarifs</h3>
+                <a href="/tarifs-aculifting-lipolyse">
+                    <div class="col-sm-4 u-link">
+                        <h3>Tarifs</h3>
 
-                <p>Vous trouverez ici le prix de nos prestations et leurs conditions</p>
+                        <p>Vous trouverez ici le prix de nos prestations et leurs conditions</p>
 
-                <a href="/tarifs-aculifting-lipolyse" class="btn btn-default">
-                  <button >
-                    En savoir plus
-                  </button>
+                        <div  class="btn btn-default">
+                            <button >
+                                En savoir plus
+                            </button>
+                        </div>
+                    </div>
                 </a>
-              </div>
+
             </div>
           </div>
         </div>

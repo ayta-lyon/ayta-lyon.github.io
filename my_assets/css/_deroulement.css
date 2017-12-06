@@ -1,11 +1,12 @@
 .ayta #deroulement {
     background-image: url("/my_assets/images/bg2.jpg");
     background-position: left bottom;
+    background-size: contain;
     font-size: 13px;
 }
 
-.ayta #deroulement > .container {
-    margin-left: 60px;
+.ayta #deroulement > .container-fluid {
+    padding-left: 60px;
 }
 
 
